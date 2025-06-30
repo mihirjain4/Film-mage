@@ -52,7 +52,7 @@ Filmmage is a powerful and intuitive Streamlit web app designed for:
 ### 1. Clone the repo:
 
 ```bash
-git clone https://github.com/yourusername/filmmage.git
+git clone https://github.com/mihirjain4/Film-mage.git
 cd filmmage
 ```
 
@@ -83,38 +83,6 @@ You can get them from: [https://github.com/opencv/opencv/tree/master/samples/dnn
 ### 5. Run the app:
 
 ```bash
-streamlit run test2.py
+streamlit run app.py
 ```
 
----
-
-## 📁 Directory Structure
-
-```
-filmmage/
-├── presets.py              # Filter logic
-├── test2.py                # Main Streamlit app
-├── models/                 # Face detection models
-├── uploads/                # Uploaded event/user images
-├── output/                 # Output matched and filtered images
-├── user_credentials.db     # SQLite DB
-├── README.md
-└── requirements.txt
-```
-
----
-
-## 🧠 TODO / Improvements
-
-* Admin panel for photographers
-* Crop / rotate / edit tools for uploaded images
-* Better face alignment before encoding
-* Deploy on Streamlit Cloud or HuggingFace Spaces
-
----
-
-## 📬 Contact
-
-Made with ❤️ by MJ Creation.
-
-For suggestions or bugs: [mihirjain@example.com](mailto:mihirjain@example.com)
