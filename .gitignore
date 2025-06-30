@@ -1,0 +1,50 @@
+# Python
+
+**pycache**/
+\*.py\[cod]
+\*.pyo
+\*.pyd
+\*.so
+\*.egg-info/
+venv/
+.env
+
+# Streamlit cache
+
+.streamlit/
+
+# Jupyter Notebooks checkpoints
+
+.ipynb\_checkpoints
+
+# VS Code
+
+.vscode/
+
+# MacOS
+
+.DS\_Store
+
+# PyInstaller
+
+\*.spec
+
+# Logs and DB
+
+\*.log
+\*.sqlite3
+\*.db
+user\_credentials.db
+
+# Uploads & Outputs
+
+/uploads/
+/output/
+/models/
+\*.zip
+
+# Others
+
+\*.bak
+\*.swp
+\*.tmp
